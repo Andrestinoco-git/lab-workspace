@@ -22,8 +22,7 @@ public class ComputePerimeterAndAreaOfCircle {
 		//area calculated in a double variable named a
 		double a= (3.14)*(Math.pow(radius, 2));
 		System.out.println(name+", your input circle with radius 9 has perimeter "+p+" and area "+a);
-
-
+		
 	}
 
 }
