@@ -14,7 +14,6 @@ public class ComputePerimeterAndAreaOfCircle {
 		double radius=keyboard.nextDouble();
 		//system println asks for users name
 		System.out.println("What's your name? ");
-		//name is stored into name string variable
 		keyboard.nextLine();
 		//store input into string variable name
 		String name=keyboard.nextLine();
