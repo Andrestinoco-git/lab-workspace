@@ -10,10 +10,8 @@ public class SwapTwoStringsWrong {
 		System.out.print("person1 is "+person1+"and ");
 		System.out.println("person2 is "+person2+".");
 		
-		String temp=person1;
 		person1=person2;
-		
-		person2=temp;
+		person2=person1;
 		
 		System.out.print("After the swap: ");
 		System.out.print("person1 is "+person1+" and");
