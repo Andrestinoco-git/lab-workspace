@@ -93,6 +93,18 @@ public class GradeReport {
 				"Midterm Test: "+mid+"\r\n" + 
 				"Final Exam: "+finalExam+"\r\n" + 
 				"-----------------------------------------");
+		
+		double avgQ=(q1+q2+q3+q4+q5+q6+q7+q8+q9)/9;
+		double avgA=(a1+a2+a3+a4+a5+a6+a7+a8+a9+a10)/10;
+		double avgT=(t1+t2+t3)/3;
+		
+		double raw=((avgQ*18)/100)+((avgA*20)/100)+((avgT*12)/100)+((mid*15)/100)+((finalExam*35)/100);
+		System.out.println("Average of quizzes: "+avgQ+"\r\n" + 
+				"Average of assignments: "+avgA+"\r\n" + 
+				"Average of lab tests: "+avgT+"\r\n" + 
+				"Final raw marks: "+raw+"\r\n" + 
+				"");
+		
 	}
 
 }
