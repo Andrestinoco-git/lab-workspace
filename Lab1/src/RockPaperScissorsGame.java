@@ -83,7 +83,7 @@ public class RockPaperScissorsGame {
 			
 		}
 		
-		if (p1wins==p2wins) {
+		if (p1wins==p2wins||p1wins==1||p2wins==1) {
 			System.out.println("========\r\n" + 
 					"Round 3:\r\n" + 
 					"========");
